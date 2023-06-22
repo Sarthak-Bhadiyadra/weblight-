@@ -1,7 +1,9 @@
 // Import modules seeder files here.
 import { nsql_db } from '../../Utils/Database/db.client';
+import { seedUsers } from './User';
 
 async function seed() {
+    await seedUsers();
 }
 
 seed()
