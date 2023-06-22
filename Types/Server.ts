@@ -1,3 +1,7 @@
 export enum API_ENDPOINTS {
-    INITIAL_GET = '/'
+    CREATE = '/users',
+    LIST = '/users',
+    UPDATE = '/users/:id',
+    DELETE = '/users/:id',
+    LOGIN = '/'
 }
